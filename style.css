@@ -1,5 +1,5 @@
 html, body{
-    height: 100%;
+    
   }
   body{
     background: linear-gradient(to bottom, #7927b2, #fb3182);
@@ -8,3 +8,4 @@ html, body{
 p{
   text-align: right;
 }
+
