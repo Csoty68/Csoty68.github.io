@@ -1,124 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
-    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Siófok</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.7.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                        <nav class="navbar navbar-light bg-light">
-                                <div class="container">
-                                  <a class="navbar-brand" href="#">
-                                    <img src="siofok.png" alt="" width="45" height="60">
-                                  </a>
-                                </div>
-                              </nav>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index2.html">Látnivalók</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-    <br><br>
-    <h1 class="d-flex justify-content-center display-1">Siófok</h1>
-    <p>
-        <img src="siofok.png" alt="cimer" id="cimer">
-    </p>
-    <hr>
-    <h1>
-        Környezete:
-    </h1>
-    <br>
-    <h4>
-            Siófok a Balaton keleti medencéjének déli partján fekszik, ott, ahol a Sió ágazik ki a tóból. Északról a Balaton, keletről a Mezőföld szélét képező hullámos fennsíkok, délről és nyugatról pedig Külső-Somogynak a Balaton déli oldalára jellemző, szelíd lejtésű dombsorai határolják.
-    </h4>
-    <br>
-    <h4>
-            Az 1950-es megyerendezésig a Sió határvonal volt Veszprém és Somogy vármegye között; jelenleg Siófok Somogy megyéhez tartozik, annak második legnagyobb városa, egyben a Balaton-part legnagyobb települése. A 20. század során határát többször kiterjesztették, így ma a déli part 70 kilométeres szakaszából 17 kilométer tartozik hozzá.
-    </h4>
-    <br><br><hr><br><br>
-    <h1>
-        Népesség:
-    </h1>
-    <br>
-    <h4>
-            Siófok lakónépessége 2011. január 1-jén 25045 fő volt, ami Somogy megye össznépességének 14,9%-át tette ki. A város Somogy megye második legsűrűbben lakott települése, abban az évben az egy négyzetkilométeren lakók száma, átlagosan 200,9 fő volt. A népesség korösszetétele kedvezőtlen. A 2011-es év elején a 19 évesnél fiatalabbak népességen belüli súlya 18%, a 60 éven felülieké 26% volt. A nemek aránya kedvezőtlen, ugyanis ezer férfira 1160 nő jut. 2017-ben a férfiaknál 71,7, a nőknél 78,7 év volt a születéskor várható átlagos élettartam.[23] A népszámlálás adatai alapján a város lakónépességének 5%-a, mintegy 1264 személy vallotta magát valamely kisebbséghez tartozónak. Közülük német, cigány és román nemzetiséginek vallották magukat a legtöbben.
-    </h4>
-    <br>
-    <h4>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Siófok</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Környezete</span></a></li>
+        <li><a href="#facts" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Népesség</span></a></li>
+        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Vizpart</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Közigazgatás és politika</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Polgármesterei</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Városrészek</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Belváros</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Siófok</h1>
+      <p> <span class="typed" data-typed-items="Üdvözöllek"></span></p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Környezete</h2>
+          <p>Siófok a Balaton keleti medencéjének déli partján fekszik, ott, ahol a Sió ágazik ki a tóból. Északról a Balaton, keletről a Mezőföld szélét képező hullámos fennsíkok, délről és nyugatról pedig Külső-Somogynak a Balaton déli oldalára jellemző, szelíd lejtésű dombsorai határolják.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            
+            <p class="fst-italic">
+              Az 1950-es megyerendezésig a Sió határvonal volt Veszprém és Somogy vármegye között; jelenleg Siófok Somogy megyéhez tartozik, annak második legnagyobb városa, egyben a Balaton-part legnagyobb települése. A 20. század során határát többször kiterjesztették, így ma a déli part 70 kilométeres szakaszából 17 kilométer tartozik hozzá.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Népesség</h2>
+          <p>Siófok lakónépessége 2011. január 1-jén 25045 fő volt, ami Somogy megye össznépességének 14,9%-át tette ki. A város Somogy megye második legsűrűbben lakott települése, abban az évben az egy négyzetkilométeren lakók száma, átlagosan 200,9 fő volt. A népesség korösszetétele kedvezőtlen. A 2011-es év elején a 19 évesnél fiatalabbak népességen belüli súlya 18%, a 60 éven felülieké 26% volt. A nemek aránya kedvezőtlen, ugyanis ezer férfira 1160 nő jut. 2017-ben a férfiaknál 71,7, a nőknél 78,7 év volt a születéskor várható átlagos élettartam.[23] A népszámlálás adatai alapján a város lakónépességének 5%-a, mintegy 1264 személy vallotta magát valamely kisebbséghez tartozónak. Közülük német, cigány és román nemzetiséginek vallották magukat a legtöbben.</p><br>
+          <p>
             A 20. század második felétől Siófok lakossága fokozatosan növekszik. Népességnövekedése az 1950-es években felgyorsult a szocializmus évei alatt. Az urbanizáció a második világháború után felgyorsuló hatású volt, többek közt ennek eredményeképpen a város lakossága megkétszereződött. A legtöbben 2011-ben éltek a városban, 25045-en. Az utolsó 2011-es népszámlálás alapján, soha nem éltek még ennyien Siófokon, mint 2011-ben.
 
             A 2011-es népszámlálási adatok szerint a magukat vallási közösséghez tartozónak valló siófokiak túlnyomó többsége római katolikusnak tartja magát. Emellett jelentős egyház a városban, még a református és az evangélikus.
-    </h4>
-    <br>
-    <p style="text-align: center;">
-        <img src="diagram.png" alt="nepesseg">
-    </p>
-    <br>
-    <h1>
-      Vízpart
-    </h1>
-    <h4>
-      A város partvonala két szakaszra osztható. A Sió csatorna torkolatától nyugatra fekvő szakasz Ezüstpart néven ismert, keletre pedig az Aranypart található. A szállodák és apartmanházak jelentős része és a város szórakoztatóközpontja, a Petőfi sétány is az Aranyparton található. A sétány mentén helyezkedik el a fizetős Nagystrand, amely 2016 óta a Plázs Siófok[4] nevet viseli. Balatonvilágos felé haladva, keletre található a szabadstrand, amely 4 km-en keresztül egészen Szabadifürdőig húzódik. Az Ezüstpartot inkább egy-két szintes nyaralók és panziók uralják, ott rövidebb hosszban és kisebb megszakításokkal működik a Balatonszéplakig tartó, partvonal menti szabadstrand.
-    </h4>
-    <br>
-    <h1>
-      Közigazgatás és politika:
-    </h1>
-    <h4>
-      Siófok önkormányzatát a (2010-es önkormányzati választás óta 11 tagú) városi képviselő-testület vezeti, élén a polgármesterrel. Ez utóbbi posztot hosszú időn át dr. Balázs Árpád töltötte be, aki többnyire a Fidesz–KDNP jelöltjeként indult a választásokon, és alkalmanként más pártok is támogatták. A 2014-es magyarországi önkormányzati választást követően a független jelöltként induló dr. Lengyel Róbert legyőzte Balázs Árpádot és ő maradt a polgármester a 2019-es választást követően is, ezúttal már egy helyi civil szervezet jelöltjeként.
-    </h4>
-    <br>
-    <h4>
-      A 11 tagú képviselő-testület tagjai közül nyolcat egyéni választókerületekben, közvetlenül választ meg a lakosság, hárman pedig kompenzációs listáról juthatnak mandátumhoz. A 2014-2019-es ciklusban a képviselők közül 7 volt Fidesz-KDNP-s, 1 független, 1 jobbikos, 1 MSZP-DK-s, 1 pedig az Együtt Siófokért Egyesület jelöltje volt a választásokon.[14] (Az előző ciklusban, 2010-2014 között majdnem ugyanezek voltak az erőviszonyok a testületben, de az egyetlen baloldali ellenzéki képviselő tisztán MSZP-s színekben szerzett mandátumot.)
-    </h4>
-    <h1>
-      Polgármesterei:
-    </h1>
-    <br>
-    <h4>
-      <ul>
-        <li>1990–1994: Molnár Árpád (független)</li>
-        <li>1994–1998: Dr. Balázs Árpád (Fidesz-KDNP-SZDSZ-MDF)</li>
-        <li>1998–2002: Dr. Balázs Árpád (Fidesz)</li>
-        <li>2002–2006: Dr. Balázs Árpád (Fidesz-MDF-MKDSZ-1215-SPKE-KPE)</li>
-        <li>2006–2010: Dr. Balázs Árpád (Fidesz)</li>
-        <li>2010–2014: Dr. Balázs Árpád (Fidesz-KDNP)</li>
-        <li>2014–2019: Dr. Lengyel Róbert (független)</li>
-        <li>2019- : Dr. Lengyel Róbert (Becsülettel Siófokért Egyesület)</li>
-      </ul>
-      <br>
-    </h4>
-    <h1>Városrészek:</h1>
-    <ul>
-      <li>Belváros</li>
-      <li>Balatonkiliti</li>
-      <li>Sóstó</li>
-      <li>Fokihegy</li>
-      <li>Szabadifürdő</li>
-      <li>Balatonszéplak</li>
-      <li>Balatonújhely</li>
-      <li>Töreki</li>
-    </ul>
-    <br>
-    <h1>
-      Belváros:
-    </h1>
-    <h4>
-      Ezen városrész területén feküdt a középkorban Fuk falu. Itt helyezkedik el a legtöbb nevezetesség, a Fő tér, a vasútállomás, a buszpályaudvar, a kikötő és a város híres bulinegyede is. A 2012-es nagy fő téri átépítés következtében a Fő utca két külön szakaszra szakadt. A város fő tere pedig teljesen el lett zárva a közúti forgalomtól. A Sió Pláza mellett ekkor épült meg a Balatoni Regionális Történeti Kutatóintézet Könyvtár épülete is. Nem messze a Fő tértől található a Millennium park és a vasútállomás épülete, továbbá az autóbusz-állomás és a városi posta épülete is. Nagyobb forgalmat bonyolít le azonban a Tanácsház utca. Az irányonként két forgalmi sávos sávos út mentén helyezkedik el a siófoki rendőrkapitányság épülete (ami 2021-től felújításon ment keresztül), a DRV és a FGSZ épülete, továbbá két fontos oktatási intézmény épülete (Perczel Mór Gimnázium, Vak Bottyán János Általános Iskola). Míg déli része kertvárosias, a vasútvonalon túl helyezkedik el az üdülőövezet. Az ellegáns villák és nyaralók mellett, sok étterem és szálloda épült ezen a helyen. 3 nevezetes sétány is helyezkedik itt el: a Krúdy sétány, az Isztria sétány, és a Petőfi sétány. Míg az előbbiek inkább a parton helyezkednek el, és céljuk a látogatók elbűvölése, a Petőfi sétány inkább beljebb található a bulinegyed szívében. A teljes egészben éttermekkel, boltokkal és diszkókkal körülvett sétány, a város egyik leglátogatottabb területe. Míg télen szabadon járhatnak itt autók, nyáron a hatalmas tömeg miatt lezárják a forgalom elől. A Rózsaliget szomszédságában helyezkedik el a Siófoki Gábor Dénes Főiskola, mely a város legfontosabb oktatási intézménye. Nincs innen messze sem a Plázs sem pedig a siófoki óriáskerék sem. Tovább haladva az üdülőövezetben kelet felé, hatalmas hotelek tornyosulnak az utcák fölé. Ezek többsége a 70-es és 80-as években épült, de népszerűségük az idő alatt sem kopott.
-    </h4>
-    
+          </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="25461" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Lakosság</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="8600" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Irányitószám</p>
+            </div>
+          </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Vizpart</h2>
+          <p>A város partvonala két szakaszra osztható. A Sió csatorna torkolatától nyugatra fekvő szakasz Ezüstpart néven ismert, keletre pedig az Aranypart található. A szállodák és apartmanházak jelentős része és a város szórakoztatóközpontja, a Petőfi sétány is az Aranyparton található. A sétány mentén helyezkedik el a fizetős Nagystrand, amely 2016 óta a Plázs Siófok nevet viseli. Balatonvilágos felé haladva, keletre található a szabadstrand, amely 4 km-en keresztül egészen Szabadifürdőig húzódik. Az Ezüstpartot inkább egy-két szintes nyaralók és panziók uralják, ott rövidebb hosszban és kisebb megszakításokkal működik a Balatonszéplakig tartó, partvonal menti szabadstrand.</p>
+        </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Közigazgatás és politika</h2>
+          <p>Siófok önkormányzatát a (2010-es önkormányzati választás óta 11 tagú) városi képviselő-testület vezeti, élén a polgármesterrel. Ez utóbbi posztot hosszú időn át dr. Balázs Árpád töltötte be, aki többnyire a Fidesz–KDNP jelöltjeként indult a választásokon, és alkalmanként más pártok is támogatták. A 2014-es magyarországi önkormányzati választást követően a független jelöltként induló dr. Lengyel Róbert legyőzte Balázs Árpádot és ő maradt a polgármester a 2019-es választást követően is, ezúttal már egy helyi civil szervezet jelöltjeként.</p><br>
+          <p>A 11 tagú képviselő-testület tagjai közül nyolcat egyéni választókerületekben, közvetlenül választ meg a lakosság, hárman pedig kompenzációs listáról juthatnak mandátumhoz. A 2014-2019-es ciklusban a képviselők közül 7 volt Fidesz-KDNP-s, 1 független, 1 jobbikos, 1 MSZP-DK-s, 1 pedig az Együtt Siófokért Egyesület jelöltje volt a választásokon. (Az előző ciklusban, 2010-2014 között majdnem ugyanezek voltak az erőviszonyok a testületben, de az egyetlen baloldali ellenzéki képviselő tisztán MSZP-s színekben szerzett mandátumot.)</p>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Polgármesterei</h2>
+          <ul>
+            <li>1990–1994: Molnár Árpád (független)</li>
+            <li>1994–1998: Dr. Balázs Árpád (Fidesz-KDNP-SZDSZ-MDF)</li>
+            <li>1998–2002: Dr. Balázs Árpád (Fidesz)</li>
+            <li>2002–2006: Dr. Balázs Árpád (Fidesz-MDF-MKDSZ-1215-SPKE-KPE)</li>
+            <li>2006–2010: Dr. Balázs Árpád (Fidesz)</li>
+            <li>2010–2014: Dr. Balázs Árpád (Fidesz-KDNP)</li>
+            <li>2014–2019: Dr. Lengyel Róbert (független)</li>
+            <li>2019- : Dr. Lengyel Róbert (Becsülettel Siófokért Egyesület)</li>
+          </ul>
+        </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Városrészek</h2>
+          <ul>
+            <li>Belváros</li>
+            <li>Balatonkiliti</li>
+            <li>Sóstó</li>
+            <li>Fokihegy</li>
+            <li>Szabadifürdő</li>
+            <li>Balatonszéplak</li>
+            <li>Balatonújhely</li>
+            <li>Töreki</li>
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Belváros</h2>
+        </div>
+
+        <div class="section-title">
+          <p>Ezen városrész területén feküdt a középkorban Fuk falu. Itt helyezkedik el a legtöbb nevezetesség, a Fő tér, a vasútállomás, a buszpályaudvar, a kikötő és a város híres bulinegyede is. A 2012-es nagy fő téri átépítés következtében a Fő utca két külön szakaszra szakadt. A város fő tere pedig teljesen el lett zárva a közúti forgalomtól. A Sió Pláza mellett ekkor épült meg a Balatoni Regionális Történeti Kutatóintézet Könyvtár épülete is. Nem messze a Fő tértől található a Millennium park és a vasútállomás épülete, továbbá az autóbusz-állomás és a városi posta épülete is. Nagyobb forgalmat bonyolít le azonban a Tanácsház utca. Az irányonként két forgalmi sávos sávos út mentén helyezkedik el a siófoki rendőrkapitányság épülete (ami 2021-től felújításon ment keresztül), a DRV és a FGSZ épülete, továbbá két fontos oktatási intézmény épülete (Perczel Mór Gimnázium, Vak Bottyán János Általános Iskola). Míg déli része kertvárosias, a vasútvonalon túl helyezkedik el az üdülőövezet. Az ellegáns villák és nyaralók mellett, sok étterem és szálloda épült ezen a helyen. 3 nevezetes sétány is helyezkedik itt el: a Krúdy sétány, az Isztria sétány, és a Petőfi sétány. Míg az előbbiek inkább a parton helyezkednek el, és céljuk a látogatók elbűvölése, a Petőfi sétány inkább beljebb található a bulinegyed szívében. A teljes egészben éttermekkel, boltokkal és diszkókkal körülvett sétány, a város egyik leglátogatottabb területe. Míg télen szabadon járhatnak itt autók, nyáron a hatalmas tömeg miatt lezárják a forgalom elől. A Rózsaliget szomszédságában helyezkedik el a Siófoki Gábor Dénes Főiskola, mely a város legfontosabb oktatási intézménye. Nincs innen messze sem a Plázs sem pedig a siófoki óriáskerék sem. Tovább haladva az üdülőövezetben kelet felé, hatalmas hotelek tornyosulnak az utcák fölé. Ezek többsége a 70-es és 80-as években épült, de népszerűségük az idő alatt sem kopott.</p>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Siófok</h3>
+      <p>Készitette: Csepeli Bence</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/purecounter/purecounter.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/typed.js/typed.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>
