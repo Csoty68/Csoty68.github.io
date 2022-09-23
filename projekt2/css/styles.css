@@ -11246,3 +11246,11 @@ header.masthead .site-heading .h1 {
     font-size: 2.25rem;
   }
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: ;
+}
