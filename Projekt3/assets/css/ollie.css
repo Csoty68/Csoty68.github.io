@@ -11554,7 +11554,7 @@ pre .code {
   position: relative;
   height: 100vh;
   min-height: 600px;
-  background-image: url(../kepek/hatter.webp);
+  background-image: url(../imgs/kepek/hatter.webp);
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -11703,4 +11703,8 @@ pre .code {
 }
 .ugyanaz{
   
+}
+.meret{
+  height: 64px;
+  width: 64px;
 }
