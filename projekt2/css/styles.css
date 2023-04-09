@@ -11252,5 +11252,12 @@ header.masthead .site-heading .h1 {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: ;
+  
 }
+
+@media (min-width: 480px) {
+      html{
+        display: block;
+        width: 100%;
+      }
+  }

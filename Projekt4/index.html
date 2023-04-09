@@ -1,49 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Analog Ora</title>
-</head>
-<body>
-
-
-    <div class="container">
-
-        <div class="circle"></div>
-        <div class="circle"></div>
-
-        <div class="clock">
-
-            <div class="clock-bg">
-                <img src="clock.png" alt="">
-            </div>
-
-            <div class="hour">
-                <span class="hr" id="hr"></span>
-            </div>
-
-            <div class="minute">
-                <span class="min" id="min"></span>
-            </div>
-
-            <div class="second">
-                <span class="sec" id="sec"></span>
-            </div>
-
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="container">
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Adj meg egy várost"
+            id="city"
+            value="mumbai"
+          />
+          <button id="search-btn">Keresés</button>
         </div>
-
-
+        <div id="result"></div>
+      </div>
     </div>
-
-
-
-
-
-
-    <script src="index.js"></script>
-    
-</body>
+    <!-- Script -->
+    <script src="key.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
