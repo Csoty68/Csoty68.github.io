@@ -24,7 +24,12 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
-
+@media screen and (min-width: 720px) {
+	.img1{
+		width: 0px;
+		height: 1px;
+	}
+}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -122,7 +127,11 @@ input, select, textarea {
 
 			html {
 				font-size: 12pt;
-				width: fit-content;
+				width: 100%;
+			}
+			.img1{
+				width: 1px;
+				height: 1px;
 			}
 
 		}

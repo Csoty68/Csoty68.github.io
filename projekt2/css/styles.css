@@ -11251,6 +11251,7 @@ header.masthead .site-heading .h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   width: 100%;
   
 }
@@ -11261,3 +11262,8 @@ header.masthead .site-heading .h1 {
         width: 100%;
       }
   }
+=======
+  width: 400px;
+  height: 400px;
+}
+>>>>>>> 0886c55428971762915fdd13202e6436228a9762
