@@ -168,8 +168,8 @@ ol {
 	display: inline-block;
 	font-size: 14px;
 	padding: 17px 30px 16px;
-	color: #ffffff;
-	background: #f36100;
+	color: #000000;
+	background: #FFFF00;
 	line-height: normal;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -386,7 +386,7 @@ ol {
 }
 
 .nav-menu ul li.active>a {
-	color: #f36100;
+	color: #FFFF00;
 }
 
 .nav-menu ul li.active>a:after {
@@ -394,7 +394,7 @@ ol {
 }
 
 .nav-menu ul li:hover>a {
-	color: #f36100;
+	color: #FFFF00;
 }
 
 .nav-menu ul li:hover>a:after {
@@ -427,7 +427,7 @@ ol {
 	top: 22px;
 	height: 1px;
 	width: 100%;
-	background: #f36100;
+	background: #000000;
 	content: "";
 	-webkit-transform: rotate(-20deg);
 	-ms-transform: rotate(-20deg);
@@ -572,7 +572,7 @@ ol {
 }
 
 .hs-slider .hs-item .hi-text h1 strong {
-	color: #f36100;
+	color: #FFFF00;
 }
 
 .hs-slider .hs-item .hi-text .primary-btn {
