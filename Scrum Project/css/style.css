@@ -120,7 +120,7 @@ ol {
 
 .section-title span {
 	font-size: 16px;
-	color: #f36100;
+	color: #FFFF00;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -183,8 +183,8 @@ ol {
 }
 
 .primary-btn.btn-normal:hover {
-	background: #f36100;
-	border-color: #f36100;
+	background: #FFFF00;
+	border-color: #FFFF00;
 }
 
 /* Preloder */
@@ -596,7 +596,7 @@ ol {
 }
 
 .cs-item:hover span {
-	background: #f36100;
+	background: #FFFF00;
 	color: #ffffff;
 }
 
@@ -606,7 +606,7 @@ ol {
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
 	display: inline-block;
-	color: #f36100;
+	color: #FFFF00;
 	line-height: 90px;
 	text-align: center;
 	-webkit-transition: all 0.3s;
@@ -667,7 +667,7 @@ ol {
 }
 
 .class-item .ci-text span {
-	color: #f36100;
+	color: #FFFF00;
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -742,14 +742,14 @@ ol {
 
 .bs-text .primary-btn {
 	background: transparent;
-	border: 2px solid #f36100;
+	border: 2px solid #FFFF00;
 }
 
 .bs-text .play-btn {
 	display: inline-block;
 	height: 70px;
 	width: 70px;
-	background: #f36100;
+	background: #FFFF00;
 	border-radius: 50%;
 	line-height: 70px;
 	text-align: center;
@@ -802,7 +802,7 @@ ol {
 }
 
 .ps-item:hover .primary-btn.pricing-btn {
-	background: #f36100;
+	background: #FFFF00;
 }
 
 .ps-item:hover .thumb-icon {
@@ -829,7 +829,7 @@ ol {
 
 .ps-item .pi-price h2 {
 	font-size: 60px;
-	color: #f36100;
+	color: #FFFF00;
 	font-weight: 600;
 }
 
@@ -864,7 +864,7 @@ ol {
 
 .ps-item .thumb-icon {
 	font-size: 48px;
-	color: #f36100;
+	color: #FFFF00;
 	position: absolute;
 	left: 50px;
 	bottom: 120px;
@@ -911,7 +911,7 @@ ol {
 
 .gallery .gs-item .thumb-icon {
 	font-size: 48px;
-	color: #f36100;
+	color: #FFFF00;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -978,7 +978,7 @@ ol {
 
 .primary-btn.appoinment-btn {
 	background: transparent;
-	border: 2px solid #f36100;
+	border: 2px solid #FFFF00;
 	float: right;
 	margin-top: 10px;
 }
@@ -1003,7 +1003,7 @@ ol {
 }
 
 .ts-slider.owl-carousel .owl-dots button.active {
-	background: #f36100;
+	background: #FFFF00;
 }
 
 .ts-slider.owl-carousel .owl-dots button:last-child {
@@ -1077,7 +1077,7 @@ ol {
 	display: inline-block;
 	height: 65px;
 	width: 65px;
-	background: #f36100;
+	background: #FFFF00;
 	border-radius: 50%;
 	line-height: 65px;
 	text-align: center;
@@ -1232,7 +1232,7 @@ ol {
 
 .copyright-text a,
 .copyright-text i {
-	color: #f36100;
+	color: #FFFF00;
 }
 
 /* ----------------------------------- Other Pages Styles ----------------------------------- */
@@ -1275,7 +1275,7 @@ ol {
 
 .breadcrumb-text .bt-option span {
 	font-size: 18px;
-	color: #f36100;
+	color: #FFFF00;
 	font-weight: 700;
 }
 
@@ -1300,7 +1300,7 @@ ol {
 	display: inline-block;
 	height: 70px;
 	width: 70px;
-	background: #f36100;
+	background: #FFFF00;
 	border-radius: 50%;
 	line-height: 70px;
 	text-align: center;
@@ -1448,7 +1448,7 @@ ol {
 }
 
 .ss-text:hover a {
-	color: #f36100;
+	color: #FFFF00;
 }
 
 .ss-text:hover:after {
@@ -1634,7 +1634,7 @@ ol {
 .class-timetable table thead tr th {
 	font-size: 14px;
 	color: #ffffff;
-	background: #f36100;
+	background: #FFFF00;
 	border-right: 1px solid #363636;
 	padding: 15px 0;
 	font-weight: 400;
@@ -1647,7 +1647,7 @@ ol {
 
 .class-timetable table tbody tr td.class-time {
 	font-size: 12px;
-	color: #f36100;
+	color: #FFFF00;
 	background: #000000;
 	border: 1px solid #363636;
 }
@@ -1663,7 +1663,7 @@ ol {
 }
 
 .class-timetable table tbody tr td.hover-bg:hover {
-	background: #f36100;
+	background: #FFFF00;
 }
 
 .class-timetable table tbody tr td.blank-td {
@@ -1822,7 +1822,7 @@ ol {
 }
 
 .sidebar-option .so-categories ul li:hover a {
-	color: #f36100;
+	color: #FFFF00;
 }
 
 .sidebar-option .so-categories ul li:hover a span {
@@ -2059,7 +2059,7 @@ ol {
 	width: 100%;
 	border: none;
 	padding: 15px 0;
-	background: #f36100;
+	background: #FFFF00;
 }
 
 /*---------------------
@@ -2559,7 +2559,7 @@ ol {
 	width: 100%;
 	border: none;
 	padding: 14px 0 12px;
-	background: #f36100;
+	background: #FFFF00;
 }
 
 /*---------------------
@@ -2582,7 +2582,7 @@ ol {
 
 .contact-widget .cw-text i {
 	font-size: 30px;
-	color: #f36100;
+	color: #FFFF00;
 	display: inline-block;
 	height: 65px;
 	width: 65px;
@@ -2697,7 +2697,7 @@ ol {
 	color: #ffffffb3;
 	height: 46px;
 	width: 100%;
-	background: #f36100;
+	background: #FFFF00;
 	border: none;
 	padding-left: 20px;
 }
@@ -2753,7 +2753,7 @@ ol {
 }
 
 .text-404 a i {
-	color: #f36100;
+	color: #FFFF00;
 	margin-right: 5px;
 }
 
@@ -2961,12 +2961,12 @@ ol {
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #f36100;
+		color: #FFFF00;
 	}
 	.offcanvas-menu-wrapper .slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #f36100;
+		color: #FFFF00;
 	}
 	.nav-menu {
 		display: none;
@@ -3107,15 +3107,15 @@ ol {
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #f36100;
+		color: #FFFF00;
 	}
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover a {
-		color: #f36100;
+		color: #FFFF00;
 	}
 	.offcanvas-menu-wrapper .slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #f36100;
+		color: #FFFF00;
 	}
 	.nav-menu {
 		display: none;
